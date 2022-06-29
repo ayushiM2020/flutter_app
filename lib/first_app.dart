@@ -20,8 +20,17 @@ class _LearnFlutterPageState extends State<LearnFlutterPage> {
           ),
           const Divider(
             color: Colors.black,
-            height: 50,
-          )
+          ),
+          Container(
+            color: Colors.blueGrey,
+              padding: const EdgeInsets.all(10.0),
+              width: double.infinity,
+            child : const Center(
+              child :Text('Widget',
+            style: TextStyle(color: Colors.white),
+          ),
+          ),
+          ),
         ],
       ),
     );
